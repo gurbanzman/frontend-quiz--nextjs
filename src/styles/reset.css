@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1,
+p,
+span,
+ol, ul, dl {
+   margin: 0;
+   font-size: medium;
+   font-weight: normal;
+   font-style: normal;
+   line-height: normal;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl,
+ol, ul, dl{
+   padding: 0;
+}

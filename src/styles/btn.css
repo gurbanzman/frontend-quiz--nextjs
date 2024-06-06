@@ -1,0 +1,19 @@
+.custom-btn {
+   background: rgba(167, 41, 245, 1);
+   padding: 32px 0;
+   border-radius: 24px;
+   box-shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
+   font-size: 28px;
+   line-height: 100%;
+   color: white;
+   outline: none;
+   border: none;
+   transform: scale(1.2);
+   transition: all 0.2s ease;
+}
+
+.custom-btn:hover {
+   transform: scale(1);
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #A729F5;
+   box-shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
+}

@@ -1,0 +1,14 @@
+// Custom Bootstrap variables
+$body-bg: #f8f9fa;
+$body-color: #212529;
+
+// Import Bootstrap with custom variables
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/utilities";
+

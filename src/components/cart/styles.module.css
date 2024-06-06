@@ -1,0 +1,7 @@
+.image1{
+   width: 56px;
+   height: 56px;
+}
+.image1>img{
+   border-radius: 12px;
+}
