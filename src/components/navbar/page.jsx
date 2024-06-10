@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 
 export default function Navbar({ children }) {
   return (
-    <nav className=" container py-5 position-relative z-3">
+    <nav className=" container-md py-5 position-relative z-3">
       <div className={`d-flex items-center justify-content-between ${children? "flex-row": "flex-row-reverse"}`}>
         {children}
         <div className={` d-flex align-items-center gap-4 ${styles[`custom--toggle_section`]}`}>

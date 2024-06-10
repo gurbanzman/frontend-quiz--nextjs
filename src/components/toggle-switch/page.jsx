@@ -1,14 +1,11 @@
 'use client'
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./styles.module.css";
 import { useTheme } from 'next-themes';
 
 export default function Switches() {
   const {theme,setTheme} = useTheme();
-  const [mounted,setMounted] = useState(false);
-  const base = localStorage.getItem("theme");
-  useEffect(()=> base==="light"? setMounted(false): setMounted(true),[]);
   function handleMode(){
     setTheme(theme==="light"? "dark": "light");
   }
@@ -19,7 +16,7 @@ export default function Switches() {
         type="checkbox"
         id="flexSwitchCheckDefault"
         onChange={handleMode}
-        checked={mounted? true: false}
+        checked={theme==="light"? false: true}
       />
     </div>
   );

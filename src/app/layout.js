@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         </ThemeProvider>
         <CircleImage item={`top-0`} imgUrl={topImage} alt={`top-image`} />
         <CircleImage
-          item={`bottom-0 end-0`}
+          item={`bottom--circle end-0`}
           imgUrl={bottomImage}
           alt={`bottom-image`}
         />
