@@ -15,23 +15,23 @@ export default async function Home() {
       {data ? (
         <>
           <Navbar ></Navbar>
-          <main className="container-md position-relative z-3">
+          <main className="container-md position-relative z-3 custom--md custom--bottom">
             <div className="d-flex align-items-lg-stretch justify-content-between xl:flex-col xl:gap-5">
               <div className="col-lg-6 d-flex flex-column gap-5 dark--class xl:w-full xl: text-center">
                 <div className="d-flex flex-column gap-1 dark--class">
                   <Header
-                    item={`custom--big-size fw-normal sm: fs-1`}
+                    item={`custom--big-size fw-normal custom--header`}
                     props={`Welcome to the`}
                   />
                   <Header
-                    item={`custom--big-size fw-bold sm: fs-2`}
+                    item={`custom--big-size fw-bold custom--header`}
                     props={`Frontend Quiz!`}
                   />
                 </div>
                 <Paragraph>Pick a subject to get started.</Paragraph>
               </div>
               <div className="col-lg-5 xl:w-full">
-                <ul className="d-flex flex-column gap-4">
+                <ul className="d-flex flex-column gap-4 custom--m3 custom--md-list">
                   {data
                     ? data.map((item, index) => {
                         return (

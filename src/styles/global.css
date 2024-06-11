@@ -46,6 +46,42 @@ html.dark .dark--class{
    font-size: 30px;
 }
 
+.custom--m3{
+   margin-top: 30px;
+}
+
+@media screen and (max-width:1399px) {
+   .custom--bottom{
+      margin-bottom: 40px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .custom--md{
+      padding: 0 20px;
+      margin:30px auto;
+   }
+   .custom--md-navbar{
+      width: 93%;
+      margin: auto;
+   }
+   .custom--md-list{
+      margin-top: 40px;
+   }
+}
+
+@media screen and (max-width:550px) {
+   .custom--modal{
+      width: 90%;
+   }
+}
+
+@media screen and (max-width:470px) {
+   .custom--header{
+      font-size: 40px;
+   }
+}
+
 .inner--cart:hover,
 .inner--cart.default {
    border: 2px solid #A729F5;
@@ -76,6 +112,7 @@ html.dark .dark--class{
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   z-index: 1000;
 }
 .bottom--circle{
    z-index: -1;

@@ -23,7 +23,7 @@ export default function Modal({ falseCount, rightCount, modal, setModal }) {
         modal ? "" : "hidden"
       } ${styles[`modal-bg`]}`}
     >
-      <div className=" bg-white w-1/3 mx-auto mt-80 rounded-lg shadow p-4 d-flex flex-column gap-4 position-relative">
+      <div className=" bg-white w-3/5 mx-auto mt-80 rounded-lg shadow p-4 d-flex flex-column gap-4 position-relative custom--modal">
         <Header item={`text-center fs-3`} props={`Dear My Friend!`} />
         <ul className="d-flex flex-column gap-3 select-none">
           <li className="p-3 bg-gray-300 rounded-lg d-flex align-items-center justify-content-between text-base fw-bold">

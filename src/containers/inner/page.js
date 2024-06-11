@@ -74,8 +74,8 @@ export default function Inner({ params }) {
           />
         </Cart>
       </Navbar>
-      <main className="container-md position-relative z-3 md:container">
-        <div className="d-flex align-items-lg-stretch justify-content-between xl:flex-col xl:gap-5">
+      <main className="container-md position-relative z-3 custom--md custom--bottom">
+        <div className="d-flex align-items-lg-stretch justify-content-between xl:flex-col xl:gap-5 md:mb-5">
           <div className="col-lg-6 d-flex flex-column gap-5 ">
             <div className="d-flex flex-column gap-3 dark--className">
               <Paragraph>
@@ -88,7 +88,7 @@ export default function Inner({ params }) {
             </div>
           </div>
           <div className="col-lg-5 d-flex flex-column gap-5 xl:w-full">
-            <ul className="d-flex flex-column gap-4">
+            <ul className="d-flex flex-column gap-4 custom--m3 custom--md-list">
               {quiz?.questions[question].answers
                 ? quiz?.questions[question].answers?.map((item, index) => {
                     return (
