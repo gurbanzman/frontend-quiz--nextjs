@@ -12,3 +12,14 @@ export async function getPosts() {
     return { errMsg: error.message };
   }
 }  
+
+export async function addPost(msg) {
+  try {
+    await connectDB();
+    const newPost = new PostModel(msg);
+    await newPost.save();
+    return { success: true, newPost:msg };
+  } catch (error) {
+    return { errMsg: error.message };
+  }
+}
