@@ -77,7 +77,7 @@ export default function Inner({ params }) {
       <main className="container-md position-relative z-3 custom--md custom--bottom">
         <div className="d-flex align-items-lg-stretch justify-content-between xl:flex-col xl:gap-5 md:mb-5">
           <div className="col-lg-6 d-flex flex-column gap-5 ">
-            <div className="d-flex flex-column gap-3 dark--className">
+            <div className="d-flex flex-column gap-3 dark--class">
               <Paragraph>
                 Question {parseInt(question, 10) + 1} of {quiz.questions.length}
               </Paragraph>

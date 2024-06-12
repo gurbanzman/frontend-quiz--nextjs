@@ -80,6 +80,12 @@ html.dark .dark--class{
    .custom--header{
       font-size: 40px;
    }
+   .none_ svg{
+      display: none;
+   }
+   .center_{
+      text-align: center;
+   }
 }
 
 .inner--cart:hover,

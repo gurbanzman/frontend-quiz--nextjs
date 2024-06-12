@@ -10,7 +10,7 @@ export default function Navbar({ children }) {
     <nav className=" container-md py-5 position-relative z-3">
       <div className={`d-flex items-center justify-content-between custom--md-navbar ${children? "flex-row": "flex-row-reverse"}`}>
         {children}
-        <div className={` d-flex align-items-center gap-4 ${styles[`custom--toggle_section`]}`}>
+        <div className={` d-flex align-items-center gap-4 none_ ${styles[`custom--toggle_section`]}`}>
           <IoSunnyOutline />
           <Switches />
           <GoMoon />
